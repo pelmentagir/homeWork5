@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-color: #4267B2;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    flex: 0 0 auto;
+}
+
+header nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header nav .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+header nav .nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav .nav-list a:hover {
+    color: #d8d8d8;
+}
+
+header nav .nav-list a.active {
+    border-bottom: 2px solid white;
+}
+
+header nav .nav-list .subcategories {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    min-width: 200px;
+}
+
+header nav .nav-list .subcategories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav .nav-list .subcategories ul li {
+    margin: 5px 0;
+}
+
+header nav .nav-list .subcategories ul li a {
+    text-decoration: none;
+    color: #4267B2;
+    font-weight: normal;
+}
+
+header nav .nav-list .subcategories ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #4267B2;
+    margin-bottom: 20px;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.recipe-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    background: #f9f9f9;
+}
+
+.recipe-item img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-item h3 {
+    margin: 10px 0;
+}
+
+.recipe-item h3 a {
+    text-decoration: none;
+    color: #4267B2;
+    font-size: 18px;
+}
+
+.recipe-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4267B2;
+    color: white;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,167 @@
+.ingredients-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ingredient {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-field {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #155dba;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    color: #1877f2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #444;
+    text-align: center;
+}
+
+.recipe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-field {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.input-field:focus {
+    border-color: #1877f2;
+    outline: none;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary {
+    background-color: #1877f2;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #155dba;
+    transform: scale(1.02);
+}
+
+.btn-secondary {
+    background-color: #f0f2f5;
+    color: #1877f2;
+    border: 1px solid #1877f2;
+}
+
+.btn-secondary:hover {
+    background-color: #e6e9ef;
+    transform: scale(1.02);
+}
+
+.ingredients-section {
+    margin-top: 20px;
+}
+
+.ingredient {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ingredients-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ingredient input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.add-ingredient-btn {
+    background-color: #f0f2f5;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.add-ingredient-btn:hover {
+    background-color: #e6e9ef;
+}
